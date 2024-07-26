@@ -261,7 +261,7 @@ controller.moveSprite(Hammer)
 scene.centerCameraAt(100, 70)
 info.startCountdown(60)
 forever(function () {
-    pause(1500)
+    pause(1750)
     sprites.destroy(mole, effects.trail, 100)
     sprites.destroy(dangermole, effects.trail, 100)
     pause(100)
